@@ -1,0 +1,126 @@
+[
+    {
+        "name": "Emily Williams",
+        "gender": "Female",
+        "age": 18,
+        "date_of_birth": "2006-08-19",
+        "diagnosis_history": [
+            {
+                "month": "April",
+                "year": 2024,
+                "blood_pressure": {
+                    "systolic": {
+                        "value": 63
+                    },
+                    "diastolic": {
+                        "value": 195
+                    }
+                }
+                
+               
+            },{
+                "month": "March",
+                "year": 2024,
+                "blood_pressure": {
+                    "systolic": {
+                        "value": 163
+                    },
+                    "diastolic": {
+                        "value": 95
+                    }
+                }
+                
+               
+            },{
+                "month": "February",
+                "year": 2024,
+                "blood_pressure": {
+                    "systolic": {
+                        "value": 183
+                    },
+                    "diastolic": {
+                        "value": 195
+                    }
+                }
+                
+               
+            },
+            {
+                "month": "May",
+                "year": 2024,
+                "blood_pressure": {
+                    "systolic": {
+                        "value": 163
+                    },
+                    "diastolic": {
+                        "value": 185
+                    }
+                }
+                
+               
+            }
+        ]
+    },
+    {
+        "name": "Ryan Johnson",
+        "gender": "Male",
+        "age": 45,
+        "date_of_birth": "1979-11-02",
+        "diagnosis_history": [
+            {
+                "month": "April",
+                "year": 2024,
+                "blood_pressure": {
+                    "systolic": {
+                        "value": 63
+                    },
+                    "diastolic": {
+                        "value": 195
+                    }
+                }
+                
+               
+            },{
+                "month": "March",
+                "year": 2024,
+                "blood_pressure": {
+                    "systolic": {
+                        "value": 163
+                    },
+                    "diastolic": {
+                        "value": 95
+                    }
+                }
+                
+               
+            },{
+                "month": "February",
+                "year": 2024,
+                "blood_pressure": {
+                    "systolic": {
+                        "value": 183
+                    },
+                    "diastolic": {
+                        "value": 195
+                    }
+                }
+                
+               
+            },
+            {
+                "month": "May",
+                "year": 2024,
+                "blood_pressure": {
+                    "systolic": {
+                        "value": 163
+                    },
+                    "diastolic": {
+                        "value": 185
+                    }
+                }
+                
+               
+            }
+        ]
+    }
+]

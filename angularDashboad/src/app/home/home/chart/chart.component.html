@@ -1,0 +1,33 @@
+<div class="sidebar" >
+    <h2>Patients<span></span></h2>
+    <a *ngFor="let item of patientData" class="active" href="#home" (click)="loadchart(item)">{{item.name}}
+        <p>
+            {{item.gender}}<span>&nbsp;&nbsp;{{item.age}}</span>
+        </p>
+    </a>
+    <!-- <a href="#news">Emily Williams</a>
+    <a href="#contact">Brandon Mitchell</a>
+    <a href="#about">Brandon Mitchell</a> -->
+  </div>
+  <div class="content">
+    <h2>Diagnosis History</h2>
+    
+    <button (click)="selectChart('bar')"type="button" class="btn btn-primary" style="margin-right:10px">Bar Char</button>
+    <button (click)="selectChart('line')"type="button" class="btn btn-primary" style="margin-right:10px">Line Chart</button>
+    <button (click)="selectChart('pie')"type="button" class="btn btn-primary">Pie Chart</button>
+
+    <div style="display: block;">
+        <div *ngIf="displayChart ==='line'">
+            <canvas #myChart></canvas> 
+          </div>
+          <div *ngIf="displayChart ==='bar'">
+            <app-bar-chart></app-bar-chart>
+          </div>
+          <div *ngIf="displayChart ==='pie'">
+            <app-pie-chart></app-pie-chart>
+          </div>
+      
+      </div>
+   
+  </div>
+  
